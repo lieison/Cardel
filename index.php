@@ -250,7 +250,7 @@
 					<div class=" col-md-6 nobottommargin">
 						<div class=" feature-box media-box">
 							<div class="fbox-media">
-								<img style="border-radius: 2px;" src="demos/construction/images/services/1.jpg" alt="Why choose Us?">
+                                                            <img style="border-radius: 2px;" src="img/home/fotos_home-01.jpg" alt="">
 							</div>
 							<div class="fbox-desc">
 								<h3>NUESTRA MISIÓN</h3>
@@ -262,7 +262,7 @@
 					<div class="col-md-6 nobottommargin">
 						<div class="feature-box media-box">
 							<div class="fbox-media">
-								<img style="border-radius: 2px;" src="images/services/1.jpg" alt="Effective Planning">
+                                                            <img style="border-radius: 2px;" src="img/home/fotos_home-02.jpg" alt="Effective Planning">
 							</div>
 							<div class="fbox-desc">
 								<h3>NUESTRA VISIÓN</h3>
@@ -275,534 +275,101 @@
 
 				</div>
 
-				<div class="section parallax dark" style="background-image: url('demos/construction/images/slider/1.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.4">
+				<div class="section parallax dark" style=" padding: 120px 0;" data-stellar-background-ratio="0.1">
 
 					<div class="fslider testimonial testimonial-full" data-arrows="false" style="z-index: 2;">
 						<div class="flexslider">
 							<div class="slider-wrap">
 								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-									</div>
+									
 									<div class="testi-content">
-										<p>Similique fugit repellendus expedita excepturi iure provident quia eaque. Repellendus, vero numquam?</p>
-										<div class="testi-meta">
-											Steve Jobs
-											<span>Apple Inc.</span>
-										</div>
+										
+                                                                            <h2><b>SOMOS TU MEJOR OPCIÓN</b></h2>
+                                                                              <p>Somos una empresa de servicios outsourcing,
+                                                                                  contamos con 15 años de experiencia en el ámbito laboral. 
+                                                                                  Nuestros principales servicios son limpieza industrial, 
+                                                                                  empaquetado, limpieza de silos de Nylon, Metal y Concreto.</p>
+										
 									</div>
 								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-											<span>Envato Inc.</span>
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-										<div class="testi-meta">
-											John Doe
-											<span>XYZ Inc.</span>
-										</div>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
 
 					<div class="video-wrap" style="z-index: 1;">
-						<div class="video-overlay" style="background: rgba(241,128,82,0.9);"></div>
+						<div class="video-overlay" style="background-image: url('img/1.jpg');"></div>
 					</div>
 
 				</div>
 
-				<div class="container clearfix">
+				<div class="container clearfix center">
 
 					<div class="clear-bottommargin">
 						<div class="row common-height clearfix">
-							<div class="col-md-4 col-sm-6 bottommargin">
+							<div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/building.png" alt="Concrete Developments"></a>
+                                                                            <a  href="#"><img src="demos/construction/images/icons/building.png" alt="" ></a>
 									</div>
-									<h3>Concrete Developments</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+									<h3>RESPONSABILIDAD</h3>
+									<p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
 								</div>
-							</div>
-							<div class="col-md-4 col-sm-6 bottommargin">
-								<div class="feature-box fbox-plain">
+                                                            <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
 										<a href="#"><img src="demos/construction/images/icons/bank.png" alt="Finance Assistance"></a>
 									</div>
-									<h3>Finance Assistance</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+									<h3>PUNTUALIDAD</h3>
+									<p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
 								</div>
 							</div>
-							<div class="col-md-4 col-sm-6 bottommargin">
+							<div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/drawer.png" alt="Interiorly Designed"></a>
-									</div>
-									<h3>Interiorly Designed</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+									<div class="fbox-icon"></div>
+									<h3>LEALTAD</h3>
+									<p><span class="fbox-icon"><a href="#"><img src="demos/construction/images/icons/bank.png" alt="Finance Assistance"></a></span>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
 								</div>
-							</div>
-							<div class="col-md-4 col-sm-6 bottommargin">
-								<div class="feature-box fbox-plain">
+                                                                <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
 										<a href="#"><img src="demos/construction/images/icons/paper-money.png" alt="Cost Effective Solutions"></a>
 									</div>
-									<h3>Cost Effective Solutions</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+									<h3>CAPACIDAD</h3>
+									<p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
+                                                                        <p>TEXTO</p>
 								</div>
 							</div>
-							<div class="col-md-4 col-sm-6 bottommargin">
+							
+                                                    <br>
+                                                        <div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/traffic-cone.png" alt="Smart Builders"></a>
-									</div>
-									<h3>Smart Builders</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+                                                                        <img src="img/home/fotos_home-03-01.jpg">
+									
 								</div>
 							</div>
-							<div class="col-md-4 col-sm-6 bottommargin">
+                                                        <div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/paint-brush.png" alt="Quality Infrastructure"></a>
-									</div>
-									<h3>Quality Infrastructure</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minima, facere distinctio placeat.</p>
+                                                                    <br><br><br>
+                                                                    <h2 style="color:#E5007E;">ESTAS EN BUENAS MANOS</h2>
+                                                                    <p>Dando servicios desde el año 2000</p>
+                                                                    <p>Experiencia en limpieza industrial</p>
+                                                                    <p>Trabajando con ética y lealtad</p>
+                                                                    <p>Equipo capacitado</p>
 								</div>
 							</div>
 						</div>
 					</div>
 
-				</div>
-
-				<div class="section nobottommargin">
-					<h2 class="center nobottommargin ls1">Some of Our Esteemed Projects:</h2>
-				</div>
-
-				<div id="portfolio" class="portfolio-full clearfix">
-
-					<article class="portfolio-item pf-media pf-icons">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/1.jpg" alt="The Atmosphere">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">The Atmosphere</a></h3>
-							<span>Chicago, USA</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-illustrations">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/2.jpg" alt="Wavelength Structure">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Wavelength Structure</h3>
-							<span>Madrid, Spain</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics pf-uielements">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/3.jpg" alt="Greenhouse Garden">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Greenhouse Garden</h3>
-							<span>Bali, Indonesia</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/4.jpg" alt="Industrial Hub">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Industrial Hub</h3>
-							<span>Beijing, China</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-uielements pf-media">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/5.jpg" alt="Corporate Headquarters">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Corporate Headquarters</h3>
-							<span>California, USA</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics pf-illustrations">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/6.jpg" alt="Space Station">
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Space Station</h3>
-							<span>Moscow, Russia</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-uielements pf-icons">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/7.jpg" alt="Bent Architecture">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Bent Architecture</h3>
-							<span>Melbourne, Australia</span>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics">
-						<div class="portfolio-image">
-							<img src="demos/construction/images/projects/8.jpg" alt="Lakeview Center">
-							<div class="portfolio-overlay">
-								<a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3>Lakeview Center</h3>
-							<span>Auckland, New Zealand</span>
-						</div>
-					</article>
-
-				</div>
-
-				<script type="text/javascript">
-
-					jQuery(window).load(function(){
-
-						var $container = $('#portfolio');
-
-						$container.isotope();
-
-						$(window).resize(function() {
-							$container.isotope('layout');
-						});
-
-					});
-
-				</script>
-
-				<a href="portfolio.html" class="button button-3d nobottomborder button-full center tright bottommargin-lg t300 font-primary" style="font-size: 26px;">
-					<div class="container clearfix">
-						Would you like to Build your Dream Home with Us? <strong>Enquire Here</strong> <i class="icon-angle-right" style="top:3px;"></i>
-					</div>
-				</a>
-
-				<div class="container topmargin-lg cleafix">
-
-					<div class="col_three_fourth">
-
-						<div class="tabs tabs-justify nobottommargin clearfix" id="construction-tabs">
-
-							<ul class="tab-nav clearfix">
-								<li><a href="#construction-tab-1">Why Us?</a></li>
-								<li><a href="#construction-tab-2">Work Ethic</a></li>
-								<li><a href="#construction-tab-3">Team</a></li>
-								<li><a href="#construction-tab-4">Locations</a></li>
-							</ul>
-
-							<div class="tab-container">
-
-								<div class="tab-content clearfix" id="construction-tab-1">
-									<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.
-									<div class="col_one_fourth nobottommargin center">
-				                        <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="964" data-refresh-interval="50" data-speed="2000"></span></div>
-				                        <h5>Floors Built</h5>
-				                    </div>
-
-				                    <div class="col_one_fourth nobottommargin center">
-				                        <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="8514" data-refresh-interval="50" data-speed="2500"></span></div>
-				                        <h5>Employees</h5>
-				                    </div>
-
-				                    <div class="col_one_fourth nobottommargin center">
-				                        <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="458" data-refresh-interval="50" data-speed="3500"></span></div>
-				                        <h5>Happy Clients</h5>
-				                    </div>
-
-				                    <div class="col_one_fourth nobottommargin center col_last">
-				                        <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="14" data-to="159" data-refresh-interval="15" data-speed="2700"></span></div>
-				                        <h5>Cities Served</h5>
-				                    </div>
-								</div>
-								<div class="tab-content clearfix" id="construction-tab-2">
-									<img src="demos/construction/images/projects/3.jpg" width="260" alt="Image" class="img-thumbnail alignleft">
-									<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-								</div>
-								<div class="tab-content clearfix" id="construction-tab-3">
-									<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-									<div class="row clearfix">
-										<div class="col-sm-4">
-											<ul class="iconlist nobottommargin">
-												<li><i class="icon-ok"></i> 100% Assurance</li>
-												<li><i class="icon-ok"></i> Hard Working</li>
-												<li><i class="icon-ok"></i> Trustworthy</li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="iconlist nobottommargin">
-												<li><i class="icon-ok"></i> Intelligent</li>
-												<li><i class="icon-ok"></i> Always Curious</li>
-												<li><i class="icon-ok"></i> Perfectionists</li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="iconlist nobottommargin">
-												<li><i class="icon-ok"></i> Friendly &amp; Helpful</li>
-												<li><i class="icon-ok"></i> Accomodating Nature</li>
-												<li><i class="icon-ok"></i> Available 24x7</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="tab-content clearfix" id="construction-tab-4">
-
-									<div class="clear-bottommargin-sm">
-										<div class="row clearfix">
-											<div class="col-sm-7 bottommargin-sm">
-												<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
-												<div class="clear-bottommargin-sm">
-													<div class="row clearfix">
-														<div class="col-sm-6 bottommargin-sm">
-															<address>
-																<strong>Headquarters:</strong><br>
-																795 Folsom Ave, Suite 600<br>
-																San Francisco, CA 94107<br>
-															</address>
-														</div>
-														<div class="col-sm-6 bottommargin-sm">
-															<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-															<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-															<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-sm-5 bottommargin-sm">
-												<img src="https://maps.googleapis.com/maps/api/staticmap?center=-37.814107,144.963280&zoom=12&markers=-37.814107,144.963280&size=300x180" alt="Google Map" class="img-thumbnail">
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_fourth col_last">
-
-						<div class="widget quick-contact-widget clearfix">
-							<h4>Quick Quotation Form</h4>
-							<div id="quick-contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
-							<form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
-								<div class="form-process"></div>
-								<input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
-								<input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
-								<textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
-								<input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-								<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Send Email</button>
-							</form>
-
-							<script type="text/javascript">
-
-								jQuery("#quick-contact-form").validate({
-									submitHandler: function(form) {
-										jQuery(form).find('.form-process').fadeIn();
-										jQuery(form).ajaxSubmit({
-											target: '#quick-contact-form-result',
-											success: function() {
-												jQuery(form).find('.form-process').fadeOut();
-												jQuery(form).find('.sm-form-control').val('');
-												jQuery('#quick-contact-form-result').attr('data-notify-msg', jQuery('#quick-contact-form-result').html()).html('');
-												SEMICOLON.widget.notifications(jQuery('#quick-contact-form-result'));
-											}
-										});
-									}
-								});
-
-							</script>
-						</div>
-
-					</div>
-
-					<div class="clear"></div><div class="line notopmargin"></div>
-
-					<div class="col_two_fifth">
-						<h4>Clients Overview</h4>
-
-						<p>We prize our Clients more than everything else. We strive to provide Quality Services to all our Clients on a Priority Basis. You are invited to join our Clients List and enjoy our Services. <a href="#">See more...</a></p>
-
-						<ul class="clients-grid grid-3 nobottommargin clearfix">
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></li>
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></li>
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></li>
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></li>
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></li>
-							<li style="padding: 20px;"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></li>
-						</ul>
-					</div>
-
-					<div class="col_three_fifth col_last">
-						<h4>Recent News</h4>
-
-						<div id="oc-posts" class="owl-carousel posts-carousel">
-
-							<div class="oc-item">
-								<div class="ipost clearfix">
-									<div class="entry-image">
-										<a href="demos/construction/images/blog/5.jpg" data-lightbox="image"><img class="image_fade" src="demos/construction/images/blog/5.jpg" alt="Standard Post with Image"></a>
-									</div>
-									<div class="entry-title">
-										<h3><a href="#">Upcoming Projects in Australia</a></h3>
-									</div>
-									<ul class="entry-meta clearfix">
-										<li>10th Feb 2014</li>
-										<li><a href="#comments">13 Comments</a></li>
-									</ul>
-									<div class="entry-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="oc-item">
-								<div class="ipost clearfix">
-									<div class="entry-image">
-										<div class="fslider" data-arrows="false" data-lightbox="gallery">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide"><a href="demos/construction/images/blog/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="demos/construction/images/blog/2.jpg" alt="Standard Post with Gallery"></a></div>
-													<div class="slide"><a href="demos/construction/images/blog/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="demos/construction/images/blog/1.jpg" alt="Standard Post with Gallery"></a></div>
-													<div class="slide"><a href="demos/construction/images/blog/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="demos/construction/images/blog/3.jpg" alt="Standard Post with Gallery"></a></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="entry-title">
-										<h3><a href="#">Real Estate just got a little more Expensive</a></h3>
-									</div>
-									<ul class="entry-meta clearfix">
-										<li>24th Feb 2014</li>
-										<li><a href="#comments">21 Comments</a></li>
-									</ul>
-									<div class="entry-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem!</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="oc-item">
-								<div class="ipost clearfix">
-									<div class="entry-image">
-										<a href="demos/construction/images/blog/4.jpg" data-lightbox="image"><img class="image_fade" src="demos/construction/images/blog/4.jpg" alt="Standard Post with Image"></a>
-									</div>
-									<div class="entry-title">
-										<h3><a href="#">Global Excellence Construction Award</a></h3>
-									</div>
-									<ul class="entry-meta clearfix">
-										<li>5th May 2014</li>
-										<li><a href="#comments">6 Comments</a></li>
-									</ul>
-									<div class="entry-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<script type="text/javascript">
-
-							jQuery(document).ready(function($) {
-
-								var ocPosts = $("#oc-posts");
-
-								ocPosts.owlCarousel({
-									margin: 20,
-									nav: true,
-									navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
-									autoplay: false,
-									autoplayHoverPause: true,
-									dots: false,
-									responsive:{
-										0:{ items:1 },
-										600:{ items:2 },
-										1000:{ items:2 },
-										1200:{ items:2 }
-									}
-								});
-
-							});
-
-						</script>
-					</div>
-
-				</div>
-
-				<div class="line topmargin-sm"></div>
-
-				<div class="section nobg notopmargin nopadding footer-stick">
-					<div class="container clearfix">
-
-						<div class="row">
-							<div class="col-md-7">
-								<img src="demos/construction/images/services/bottom-trust.jpg" alt="Bottom Trust">
-							</div>
-							<div class="col-md-5 topmargin-sm">
-								<div class="heading-block nobottomborder">
-									<h2>You're in Good Hands.</h2>
-									<span class="ls1">Five Points that define Our Reliability.</span>
-								</div>
-
-								<ul class="iconlist iconlist-large iconlist-color">
-									<li><i class="icon-ok"></i> Market Leader since 1915</li>
-									<li><i class="icon-ok"></i> Positive Results within Deadlines</li>
-									<li><i class="icon-ok"></i> 100% Reliability &amp; Guarantee</li>
-									<li><i class="icon-ok"></i> Dedicated Professional Team of 500+</li>
-									<li><i class="icon-ok"></i> Unmatched After Project Completion Support</li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
 				</div>
 
 			</div>
@@ -811,7 +378,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark">
+                <footer id="footer" style="background-color:#E5007E;" class="">
 
 			<div class="container">
 
@@ -821,9 +388,9 @@
 
 					<div class="col_two_third">
 
-						<div class="widget clearfix">
+                                            <div class="widget clearfix" style="color:white;">
 
-							<img src="images/footer-widget-logo.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+                                                    <img src="img/logo.png" width="150" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
 							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
 
@@ -930,7 +497,7 @@
 
 			<!-- Copyrights
 			============================================= -->
-			<div id="copyrights">
+			<div style="background-color:#009EE2" id="copyrights">
 
 				<div class="container clearfix">
 
