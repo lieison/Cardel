@@ -123,7 +123,7 @@
 
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide" style="background-image: url('demos/construction/images/slider/2.jpg'); background-position: center top;">
+					<div class="swiper-slide" style="background-image: url('img/home/Home_foto1-01.jpg'); background-position: center top;">
 						<div class="container clearfix">
 							<div class="slider-caption">
 								<h2>Cardel</h2>
@@ -131,28 +131,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide">
-						<div class="container clearfix">
-							<div class="slider-caption slider-caption-right">
-								
-							</div>
-						</div>
-						<div class="video-wrap">
-							<video id="slide-video" poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-								<source src='images/videos/explore.webm' type='video/webm' />
-								<source src='images/videos/explore.mp4' type='video/mp4' />
-							</video>
-							<div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
-						</div>
-					</div>
-					<div class="swiper-slide" style="background-image: url('demos/construction/images/slider/1.jpg'); background-position: center bottom;">
-						<div class="container clearfix">
-							<div  class="slider-caption">
-								<h2>Premium Constructions</h2>
-								<p>You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
 				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
@@ -298,7 +277,7 @@
 					</div>
 
 					<div class="video-wrap" style="z-index: 1;">
-						<div class="video-overlay" style="background-image: url('img/1.jpg');"></div>
+						<div class="video-overlay" style="background-image: url('img/home/h1.jpg');"></div>
 					</div>
 
 				</div>
@@ -310,7 +289,7 @@
 							<div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-                                                                            <a  href="#"><img src="demos/construction/images/icons/building.png" alt="" ></a>
+                                                                            <a  href="#"><img src="img/home/Icons-01.png" alt="" ></a>
 									</div>
 									<h3>RESPONSABILIDAD</h3>
 									<p>TEXTO</p>
@@ -320,7 +299,7 @@
 								</div>
                                                             <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/bank.png" alt="Finance Assistance"></a>
+										<a href="#"><img src="img/home/Icons-03.png" alt="Finance Assistance"></a>
 									</div>
 									<h3>PUNTUALIDAD</h3>
 									<p>TEXTO</p>
@@ -333,14 +312,14 @@
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon"></div>
 									<h3>LEALTAD</h3>
-									<p><span class="fbox-icon"><a href="#"><img src="demos/construction/images/icons/bank.png" alt="Finance Assistance"></a></span>TEXTO</p>
+									<p><span class="fbox-icon"><a href="#"><img src="img/home/Icons-02.png" alt="Finance Assistance"></a></span>TEXTO</p>
                                                                         <p>TEXTO</p>
                                                                         <p>TEXTO</p>
                                                                         <p>TEXTO</p>
 								</div>
                                                                 <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/construction/images/icons/paper-money.png" alt="Cost Effective Solutions"></a>
+										<a href="#"><img src="img/home/Icons-04.png" alt="Cost Effective Solutions"></a>
 									</div>
 									<h3>CAPACIDAD</h3>
 									<p>TEXTO</p>
@@ -357,14 +336,14 @@
 									
 								</div>
 							</div>
-                                                        <div class="col-md-6 col-sm-6 bottommargin">
+                                                        <div align="left" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <br><br><br>
                                                                     <h2 style="color:#E5007E;">ESTAS EN BUENAS MANOS</h2>
-                                                                    <p>Dando servicios desde el año 2000</p>
-                                                                    <p>Experiencia en limpieza industrial</p>
-                                                                    <p>Trabajando con ética y lealtad</p>
-                                                                    <p>Equipo capacitado</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />Dando servicios desde el año 2000</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />Experiencia en limpieza industrial</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />Trabajando con ética y lealtad</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />Equipo capacitado</p>
 								</div>
 							</div>
 						</div>
@@ -390,55 +369,11 @@
 
                                             <div class="widget clearfix" style="color:white;">
 
-                                                    <img src="img/logo.png" width="150" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+                                                    <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
 							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
 
 							<div class="line" style="margin: 30px 0;"></div>
-
-							<div class="row">
-
-								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">FAQs</a></li>
-										<li><a href="#">Support</a></li>
-										<li><a href="#">Contact</a></li>
-									</ul>
-								</div>
-
-								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">Shop</a></li>
-										<li><a href="#">Portfolio</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Events</a></li>
-										<li><a href="#">Forums</a></li>
-									</ul>
-								</div>
-
-								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">Corporate</a></li>
-										<li><a href="#">Agency</a></li>
-										<li><a href="#">eCommerce</a></li>
-										<li><a href="#">Personal</a></li>
-										<li><a href="#">One Page</a></li>
-									</ul>
-								</div>
-
-								<div class="col-md-3 col-xs-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">Restaurant</a></li>
-										<li><a href="#">Wedding</a></li>
-										<li><a href="#">App Showcase</a></li>
-										<li><a href="#">Magazine</a></li>
-										<li><a href="#">Landing Page</a></li>
-									</ul>
-								</div>
-
-							</div>
 
 						</div>
 
@@ -450,17 +385,17 @@
 
 							<div class="row">
 
-								<div class="col-md-12 bottommargin-sm">
-									<div class="footer-big-contacts">
-										<span>Call Us:</span>
-										(91) 22 55412474
+								<div  class="col-md-12 bottommargin-sm">
+									<div style="color:white;" class="footer-big-contacts">
+										<span style="color:white;">Llámanos:</span>
+										(503) 0000-0000
 									</div>
 								</div>
 
 								<div class="col-md-12 bottommargin-sm">
-									<div class="footer-big-contacts">
-										<span>Send an Email:</span>
-										info@canvas.com
+									<div style="color:white;" class="footer-big-contacts">
+										<span style="color:white;">Escribenos:</span>
+										carolinadeleon@cardelindustrial.com
 									</div>
 								</div>
 
@@ -471,20 +406,19 @@
 						<div class="widget subscribe-widget clearfix">
 							<div class="row">
 
-								<div class="col-md-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
+								<div class="col-md-8 clearfix bottommargin-sm">
+									<a href="#"  style="margin-right: 10px;">
+                                                                            <img width="50" height="50" src="img/home/logos-social-01.png" />
 									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-								</div>
-								<div class="col-md-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
+                                                                    <a href="#"  style="margin-right: 10px;">
+                                                                            <img width="50" height="50" src="img/home/logos-social-02.png" />
 									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+                                                                    <a href="#"  style="margin-right: 10px;">
+                                                                            <img width="50" height="50" src="img/home/logos-social-03.png" />
+									</a>
+									
 								</div>
+								
 
 							</div>
 						</div>
@@ -502,8 +436,8 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						Copyrights &copy; 2015 CARDEL, Todos los derechos reservados.<br>
+						<div class="copyright-links"><a href="#">Powered By Lieison Working Together</a> </div>
 					</div>
 
 					<div class="col_half col_last tright">
