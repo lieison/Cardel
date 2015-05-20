@@ -188,7 +188,7 @@
                             
                             <div style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
 					<div class="container clearfix">
-                                            <h3 style="color:white;" align="center" style="letter-spacing: 2px;">Quieres ser parte del mejor equipo ?</h3>
+                                            <h3 style="color:white;" align="center" style="letter-spacing: 2px;">CONOCE MÁS SOBRE NUESTROS SERVICIOS</h3>
 						
 					</div>
 				</div>
@@ -198,25 +198,57 @@
 				<div class="container clearfix">
 
 					<div class=" col-md-4 nobottommargin">
-						<div class=" feature-box media-box">
-							  <div class="fbox-desc">
-                                                            <h3  style="color:#E5007E;" >NUESTRA EXPERIENCIA</h3>
-                                                            <hr  size="4" width="50%" align="left" />
-                                                             <p>Con más de 15 años en el mercado atendiendo las diferentes necesidades de nuestros clientes hemos logrado posicionarnos con mucha confianza y credibilidad en la imagen que nuestros clientes tienen sobre nosotros y creemos que trabajar de la mano, hombro con hombro de nuestros clientes es como se logran las metas y objetivos de las organizaciones.</p>
-                                                    </div>
-                                                   
-						</div>
+                                         <div align="right" class="fbox-icon">
+                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-01.jpg" ></a>
+                                             <br><br><br>
+					</div>
+                                            
+                                            <div align="right" class="fbox-icon">
+                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-02.jpg" ></a>
+                                             <br><br><br>
+					</div>
+                                            
+                                            <div align="right" class="fbox-icon">
+                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-03.jpg" ></a>
+                                             <br><br><br>
+					</div>
+                                            
 					</div>
 
 					<div class="col-md-8 nobottommargin">
 						<div class="feature-box media-box">
-							
-						 
-                                                   
-                                                   
+							 <h4 style="letter-spacing: 2px;"><strong>SERVICIOS DE </strong> <strong style="color:#E5007E;">LIMPIEZA</strong></h4>
+                                                         <hr align="left" width="35%">
+                                                         <p>Nuestros servicios de limpieza consiste en proveer con
+                                                             personal altamente capacitado, eficiente y sobretodo productivo para 
+                                                             que los empleados de nuestros clientes se sientan satisfechos 
+                                                             trabajando en un ambiente limpio y ordenado sin ninguna complicación. (imagen)</p>
 						</div>
+                                            <br><br>
 					</div>
-
+                                    
+                                    <div class="col-md-8 nobottommargin">
+						<div class="feature-box media-box">
+							 <h4 style="letter-spacing: 2px;"><strong>ADMINISTRACIÓN DE </strong> <strong style="color:#E5007E;">PERSONAL</strong></h4>
+                                                         <hr align="left" width="35%">
+                                                         <p>Administración  de personal: Consiste en ofrecer una solución sólida en 
+                                                             cuanto al ahorro de tiempo, reducción de costos y librar a nuestros
+                                                             clientes del hecho de administrar demasiado personal y enfocarse en 
+                                                             la productividad de su negocio, nosotros en Cardel entendemos la necesidad que existe y por eso ponemos todo nuestro 
+                                                             empeño en satisfacer las necesidades de nuestros clientes superando todas las expectativas.</p>
+						</div>
+                                        <br><br>
+					</div>
+                                          <div class="col-md-8 nobottommargin">
+						<div class="feature-box media-box">
+							 <h4 style="letter-spacing: 2px;"><strong>SERVICIOS DE </strong> <strong style="color:#E5007E;">MANO DE OBRA EN LABORATORIOS Y FARMACÉUTICAS</strong></h4>
+                                                         <hr align="left" width="35%">
+                                                         <p>Servicios de mano de obra en laboratorios y farmacéuticas: 
+                                                             Gestionamos y administramos personal con alta capacidad, competitivad y sobre todo con ética y buenos valores para que 
+                                                             nuestros clientes puedan desarrollar el crecimiento sostenible a plenitud que desean. </p>
+						</div>
+                                        <br><br>
+					</div>
 					
 
 				</div>
@@ -227,7 +259,9 @@
 
 			</div>
 
-		</section><!-- #content end -->
+		</section>
+                
+                <!-- #content end -->
 
 		<!-- Footer
 		============================================= -->

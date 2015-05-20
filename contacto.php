@@ -182,57 +182,34 @@
 
 		<!-- Content
 		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap">
-                            
-                            <div style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
-					<div class="container clearfix">
-                                            <h3 style="color:white;" align="center" style="letter-spacing: 2px;">Quieres ser parte del mejor equipo ?</h3>
+		<section style="background-color: #009EE2;" id="page-title">
+                    <div style="background-color: #009EE2;" class="container clearfix">
+                         <h3 style="color:white; font-size: 300%"  style="letter-spacing: 2px;">CONTACTO</h3>
 						
-					</div>
-				</div>
-                          
-
-
-				<div class="container clearfix">
-
-					<div class=" col-md-4 nobottommargin">
-						<div class=" feature-box media-box">
-							  <div class="fbox-desc">
-                                                            <h3  style="color:#E5007E;" >NUESTRA EXPERIENCIA</h3>
-                                                            <hr  size="4" width="50%" align="left" />
-                                                             <p>Con más de 15 años en el mercado atendiendo las diferentes necesidades de nuestros clientes hemos logrado posicionarnos con mucha confianza y credibilidad en la imagen que nuestros clientes tienen sobre nosotros y creemos que trabajar de la mano, hombro con hombro de nuestros clientes es como se logran las metas y objetivos de las organizaciones.</p>
-                                                    </div>
-                                                   
-						</div>
-					</div>
-
-					<div class="col-md-8 nobottommargin">
-						<div class="feature-box media-box">
-							
-						 
-                                                   
-                                                   
-						</div>
-					</div>
-
-					
-
-				</div>
-
-				
-
+		</div>
 			
 
-			</div>
-
 		</section><!-- #content end -->
+                
+                <section id="google-map" class="gmap">
+                       <iframe onload="autofitIframe(this);" src="https://www.google.com/maps/d/embed?mid=z7WZ1bOIHK8c.k94hVuLCrLEw" width="100%" height="600"></iframe>
+                </section>
+                
+               <section id="page-title">
+                   
+                 <div  class="container clearfix">
+                     <br>
+                         <h3 style="color:#E5007E;"   style="letter-spacing: 2px;">MAYOR INFORMACION</h3>
+                         <p style="font-size: large">Para asesoría e información sobre los proyectos que podemos ejecutar contactar a:</p>			
+		</div>
+			
+
+		</section>
 
 		<!-- Footer
 		============================================= -->
                
-               <?php $page->Footer(); ?>
+               <?php $page->FooterContact(); ?>
                 
                 <!-- #footer end -->
 
