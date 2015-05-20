@@ -84,13 +84,7 @@
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 						<ul>
-							<li class="current"><a href="#"><div>INICIO</div></a></li>
-							<li ><a href="#"><div> | &nbsp;&nbsp;QUIENES SOMOS</div></a>
-								
-							</li>
-                                                        <li><a href="#"><div> | &nbsp;&nbsp;OPORTUNIDADES</div></a></li>
-							<li><a href="#"><div> | &nbsp&nbsp;SERVICIOS</div></a></li>
-							<li><a href="#"><div> | &nbsp;&nbsp;CONTACTO</div></a></li>
+							<?php $page->Menu(); ?>
 							
 						</ul>
 
@@ -272,7 +266,7 @@
 
 				</div>
 
-				<div class="container clearfix center">
+				<div class="container clearfix ">
 
 					<div class="clear-bottommargin">
 						<div class="row common-height clearfix">
@@ -282,58 +276,50 @@
                                                                             <a  href="#"><img src="img/home/Icons-01.png" alt="" ></a>
 									</div>
 									<h3>RESPONSABILIDAD</h3>
-									<p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
+									<p>Tenemos como compromiso responder a la necesidad de nuestro cliente con un alto rendimiento en los servicios que ofrecemos.</p>
+                                                                        
 								</div>
                                                             <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
 										<a href="#"><img src="img/home/Icons-03.png" alt="Finance Assistance"></a>
 									</div>
-									<h3>PUNTUALIDAD</h3>
-									<p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
+									<h3>AGILIDAD</h3>
+									<p>Eficacia de nuestro servicio sin retrasos.</p>
+                                                                       
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon"></div>
 									<h3>LEALTAD</h3>
-									<p><span class="fbox-icon"><a href="#"><img src="img/home/Icons-02.png" alt="Finance Assistance"></a></span>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
+									<p><span class="fbox-icon"><a href="#"><img src="img/home/Icons-02.png" alt="Finance Assistance"></a></span></p>
+                                                                        <p>Garantizamos cumplir nuestros servicios en su empres con fidelidad y confidencialidad.</p>
+                                                                       
 								</div>
                                                                 <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
 										<a href="#"><img src="img/home/Icons-04.png" alt="Cost Effective Solutions"></a>
 									</div>
 									<h3>CAPACIDAD</h3>
-									<p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
-                                                                        <p>TEXTO</p>
+									<p>Contamos con personal entrenado para ejecutar con habilidad y conocimiento, el servicio que necesita, a su entera satisfacción.</p>
+                                                                        
 								</div>
 							</div>
-							
-                                                    <br>
+						
                                                         <div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
-                                                                        <img src="img/home/fotos_home-03-01.jpg">
-									
+                                                                    <img height="" src="img/home/fotos_home-03-01.jpg">
 								</div>
 							</div>
-                                                        <div align="left" class="col-md-6 col-sm-6 bottommargin">
+                                                        
+                                                       <div align="left" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <br><br><br>
                                                                     <h2 style="color:#E5007E;">ESTAS EN BUENAS MANOS</h2>
-                                                                    <p><img src="img/home/check.png" width="20" height="20" />Dando servicios desde el año 2000</p>
-                                                                    <p><img src="img/home/check.png" width="20" height="20" />Experiencia en limpieza industrial</p>
-                                                                    <p><img src="img/home/check.png" width="20" height="20" />Trabajando con ética y lealtad</p>
-                                                                    <p><img src="img/home/check.png" width="20" height="20" />Equipo capacitado</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />&nbsp;Dando servicios desde el año 2000</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />&nbsp;Experiencia en limpieza industrial</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />&nbsp;Trabajando con ética y lealtad</p>
+                                                                    <p><img src="img/home/check.png" width="20" height="20" />&nbsp;Equipo capacitado</p>
 								</div>
 							</div>
 						</div>
@@ -347,100 +333,10 @@
 
 		<!-- Footer
 		============================================= -->
-                <footer id="footer" style="background-color:#E5007E;" class="">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
-
-					<div class="col_two_third">
-
-                                            <div class="widget clearfix" style="color:white;">
-
-                                                    <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
-
-							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
-
-							<div class="line" style="margin: 30px 0;"></div>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="widget clear-bottommargin-sm clearfix">
-
-							<div class="row">
-
-								<div  class="col-md-12 bottommargin-sm">
-									<div style="color:white;" class="footer-big-contacts">
-										<span style="color:white;">Llámanos:</span>
-										(503) 0000-0000
-									</div>
-								</div>
-
-								<div class="col-md-12 bottommargin-sm">
-									<div style="color:white;" class="footer-big-contacts">
-										<span style="color:white;">Escribenos:</span>
-										carolinadeleon@cardelindustrial.com
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="widget subscribe-widget clearfix">
-							<div class="row">
-
-								<div class="col-md-8 clearfix bottommargin-sm">
-									<a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-01.png" />
-									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-02.png" />
-									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-03.png" />
-									</a>
-									
-								</div>
-								
-
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div style="background-color:#009EE2" id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyrights &copy; 2015 CARDEL, Todos los derechos reservados.<br>
-						<div class="copyright-links"><a href="#">Powered By Lieison Working Together</a> </div>
-					</div>
-
-					<div class="col_half col_last tright">
-						<div class="copyrights-menu copyright-links clearfix">
-							<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
+               
+               <?php $page->Footer(); ?>
+                
+                <!-- #footer end -->
 
 	</div><!-- #wrapper end -->
 
