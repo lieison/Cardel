@@ -362,6 +362,14 @@ span.middot {
 	overflow: hidden;
 }
 
+.section-personal {
+	position: relative;
+	margin: 0px 0;
+	padding: 60px 0;
+	background-color: #F9F9F9;
+	overflow: hidden;
+}
+
 .parallax {
 	background-color: transparent;
 	background-attachment: fixed;
@@ -3242,6 +3250,11 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 .content-wrap {
 	position: relative;
 	padding: 80px 0;
+}
+
+.content-wrap-personal {
+	position: relative;
+	padding: 0px 0;
 }
 
 #content .container { position: relative; }

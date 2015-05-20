@@ -103,38 +103,9 @@
 
 		</header><!-- #header end -->
 
-		<section id="slider" class="slider-parallax swiper_wrapper clearfix" style="height: 550px;">
+		<section id="" class="slider-parallax  clearfix">
 
-			<div class="swiper-container swiper-parent">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide" style="background-image: url('img/quienes/foto1-01.jpg'); background-position: center top; ">
-						<div class="container clearfix">
-							
-						</div>
-					</div>
-                                    <div class="swiper-slide" style="background-image: url('img/quienes/foto2-01.jpg'); background-position: center top;">
-						<div class="container clearfix">
-							
-						</div>
-					</div>
-                                    
-                                       <div class="swiper-slide" style="background-image: url('img/quienes/foto3-01.jpg'); background-position: center top;">
-						<div class="container clearfix">
-							
-						</div>
-					</div>
-                                    
-                                       <div class="swiper-slide" style="background-image: url('img/quienes/foto4-01.jpg'); background-position: center top;">
-						<div class="container clearfix">
-							
-						</div>
-					</div>
-                                   
-					
-				</div>
-				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
-				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
-			</div>
+			
 
 			<script>
 				jQuery(document).ready(function($){
@@ -215,29 +186,24 @@
 
 			<div class="content-wrap">
                             
-                           <div class="promo  promo-full  bottommargin-lg header-stick">
+                            <div style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
 					<div class="container clearfix">
-                                            <h4 style="letter-spacing: 2px;"><strong>PORQUE</strong> <strong style="color:#E5007E;">CONTRATARNOS</strong></h4>
-                                                 <hr  size="4" width="25%" align="left" />
-                                                 <p>
-                                                     La razón principal por la cual nuestros clientes adquieren nuestros servicios es porque al igual que ellos nosotros nos preocupamos mucho en materia de reducción de costos y optimización de recursos y es que en los estudios que hemos realizado la manera en la que hemos generado un impacto positivo en las finanzas de nuestros clientes es satisfactoria debido a que el tiempo se ha utilizado de manera eficiente. Ahora la pregunta de ¿porqué contratarnos? conlleva a una respuesta simple y es que Cardel con su modelo de outsourcing ayuda a que tu marca reduzca costos y optimice recursos.
-                                                 </p>
+                                            <h3 style="color:white;" align="center" style="letter-spacing: 2px;">Quieres ser parte del mejor equipo ?</h3>
+						
 					</div>
 				</div>
+                          
 
 
 				<div class="container clearfix">
 
-					<div class=" col-md-6 nobottommargin">
+					<div class=" col-md-4 nobottommargin">
 						<div class=" feature-box media-box">
-							<div class="fbox-media">
-                                                            <img style="border-radius: 2px;" src="img/quienes/NuestraExperiencia-01.jpg" alt="Nuestra Experiencia">
-							</div>
 							
 						</div>
 					</div>
 
-					<div class="col-md-6 nobottommargin">
+					<div class="col-md-8 nobottommargin">
 						<div class="feature-box media-box">
 							
 						   <div class="fbox-desc">
@@ -246,15 +212,7 @@
                                                              <p>Con más de 15 años en el mercado atendiendo las diferentes necesidades de nuestros clientes hemos logrado posicionarnos con mucha confianza y credibilidad en la imagen que nuestros clientes tienen sobre nosotros y creemos que trabajar de la mano, hombro con hombro de nuestros clientes es como se logran las metas y objetivos de las organizaciones.</p>
                                                     </div>
                                                    
-                                                    <br><br>
-                                                    <div class="fbox-desc">
-                                                            <h3  style="color:#E5007E;" >NUESTRO MAYOR CLIENTE</h3>
-                                                            <hr  size="4" width="50%" align="left" />
-                                                             <div align="center" class="fbox-center">
-                                                                 <img width="201" height="101" style="border-radius: 2px;" src="img/quienes/logoharisa-01.jpg" alt="">
-                                                            </div>
-							</div>
-						</div>
+                                                    
 					</div>
 
 					

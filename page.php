@@ -65,7 +65,7 @@ class Page{
 
                                             <div class="widget clearfix" style="color:white;">
 
-                                                    <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+                                                    <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px;">
 
 							
 
