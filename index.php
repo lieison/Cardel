@@ -1,3 +1,5 @@
+<?php include 'page.php'; ?>
+<?php $page = new Page(); ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -37,7 +39,11 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Cardel</title>
+	<?php 
+                $page->Tittle();
+                $page->Icon();
+        ?>
+        
 
 </head>
 
@@ -55,28 +61,12 @@
 
 				<!-- Logo
 				============================================= -->
-				<div id="logo">
-                                    <br>
-                                    <a href="index.html" class="standard-logo"><img width="250" src="img/logo.png" alt="Canvas Logo"></a>
-					
-				</div><!-- #logo end -->
+				<?php $page->Logo(); ?>
+                                <!-- #logo end -->
                                     <br>
 				<ul class="header-extras">
                                     
-					<li>
-						<i class="i-plain icon-call nomargin"></i>
-						<div class="he-text">
-                                                    <b>Llámanos</b> 
-							<span>(503) 0000-0000</span>
-						</div>
-					</li>
-					<li>
-						<i class="i-plain icon-line2-envelope nomargin"></i>
-						<div class="he-text">
-                                                    <b>Escribenos</b>
-							<span>carolinadeleon@cardelindustrial.com</span>
-						</div>
-					</li>
+					<?php $page->HeaderExtra(); ?> 
 					
 				</ul>
 
