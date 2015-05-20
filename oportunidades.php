@@ -30,13 +30,14 @@
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" href="demos/construction/css/colors.css" type="text/css" />
-
+	<link rel="stylesheet" href="css/colors.css" type="text/css" />
+        <link rel="stylesheet" href="css/drop.css" type="text/css" />
 	<!-- External JavaScripts
 	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
-
+        <script type="text/javascript" src="js/drop.js"></script>
+        
 	<!-- Document Title
 	============================================= -->
 	<?php 
@@ -209,10 +210,52 @@
 					</div>
 
 					<div class="col-md-8 nobottommargin">
-						<div class="feature-box media-box">
+						 <div class="well well-lg nobottommargin">
 							
-						 
-                                                   
+						
+                                      <form id="top-login" role="form"  enctype="multipart/form-data">
+                                        <div class="input-group" id="top-login-username">
+                                            <span class="input-group-addon"><i class="icon-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Nombres" required="">
+                                        </div>
+                                        <br>
+                                        <div class="input-group" id="top-login-username">
+                                            <span class="input-group-addon"><i class="icon-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Apellidos" required="">
+                                        </div>
+                                        <br>
+                                        <div class="input-group" id="top-login-username">
+                                            <span class="input-group-addon"><i class="icon-phone"></i></span>
+                                            <input type="text" class="form-control" placeholder="Telefono" required="">
+                                        </div>
+                                        
+                                        <br>
+                                        <div class="input-group" id="top-login-username">
+                                            <span class="input-group-addon"><i class="icon-email"></i></span>
+                                            <input type="text" class="form-control" placeholder="email" required="">
+                                        </div>
+            
+                                        <br>
+                                        <div class="form-inline">
+                                            <div align ="center" class="form-group fallback">
+                                                 <span class="input-group-addon"><i class="icon-file"></i>&nbsp;&nbsp;Adjunta tu CV
+                                                 </span>
+                                                
+                                                
+                                                <input  class=" btn " type="file" name="files[]" value="" />
+                                                
+                                            </div>
+                                             
+                                         </div>
+                                        
+                                        
+                                          <br> <br>
+                                         
+                                        <button style="background-color:#E5007E; color:white;" class="btn btn-block" type="submit">Enviar</button>
+                                    </form>
+                                                     
+                                                     
+                              
                                                    
 						</div>
 					</div>
