@@ -35,20 +35,20 @@ class Page{
 		<i class="i-plain icon-line2-envelope nomargin"></i>
 			<div class="he-text">
                  <b>Escribenos</b>
-		<span>carolinadeleon@cardelindustrial.com</span>
+		<span>info@cardelindustrial.com</span>
 		</div>
 	    </li>';
     }
     
     
     public function Menu(){
-        echo '<li class="current"><a href="#"><div>INICIO</div></a></li>
-							<li ><a href="#"><div> | &nbsp;&nbsp;QUIENES SOMOS</div></a>
+        echo '<li class="current"><a href="index.php"><div>INICIO</div></a></li>
+							<li ><a href="quienes.php"><div> | &nbsp;&nbsp;QUIENES SOMOS</div></a>
 								
 							</li>
-                                                        <li><a href="#"><div> | &nbsp;&nbsp;OPORTUNIDADES</div></a></li>
-							<li><a href="#"><div> | &nbsp&nbsp;SERVICIOS</div></a></li>
-							<li><a href="#"><div> | &nbsp;&nbsp;CONTACTO</div></a></li>';
+                                                        <li><a href="oportunidades.php"><div> | &nbsp;&nbsp;OPORTUNIDADES</div></a></li>
+							<li><a href="servicios.php"><div> | &nbsp&nbsp;SERVICIOS</div></a></li>
+							<li><a href="contacto.php"><div> | &nbsp;&nbsp;CONTACTO</div></a></li>';
     }
     
     
@@ -67,10 +67,16 @@ class Page{
 
                                                     <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
-							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
+							
 
-							<div class="line" style="margin: 30px 0;"></div>
-
+							<div class="line double-line" style="margin: 60px 0;  "></div>
+                                                        
+                                                        <p><strong>Es una empresa de servicios outsourcing fundada en el año 2000 y cuenta
+                                                         con 15 años de experiencia en el ambito laboral. es subcontratada para dar
+                                                         prestaciones de servicios especializados de mano de obra a través de un contrato ,
+                                                         entre los principales servicios que se ofrecen se encuentran limpieza industrial,
+                                                         empaquetado , limpieza de silos de nylon , Metal y Concreto
+                                                         </strong> </p>
 						</div>
 
 					</div>
@@ -84,14 +90,14 @@ class Page{
 								<div  class="col-md-12 bottommargin-sm">
 									<div style="color:white;" class="footer-big-contacts">
 										<span style="color:white;">Llámanos:</span>
-										(503) 0000-0000
+										(503) 2122-4434
 									</div>
 								</div>
 
 								<div class="col-md-12 bottommargin-sm">
 									<div style="color:white;" class="footer-big-contacts">
 										<span style="color:white;">Escribenos:</span>
-										carolinadeleon@cardelindustrial.com
+										info@cardelindustrial.com
 									</div>
 								</div>
 
@@ -138,7 +144,7 @@ class Page{
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links clearfix">
-							<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							<a href="inidex.php">Inicio</a>/<a href="quienes.php">Quienes somos</a>/<a href="oportunidades.php">Oportunidades</a>/<a href="servicios.php">Servicios</a>/<a href="contacto.php">Contacto</a>
 						</div>
 					</div>
 
