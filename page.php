@@ -35,7 +35,7 @@ class Page{
 		<i class="i-plain icon-line2-envelope nomargin"></i>
 			<div class="he-text">
                  <b>Escribenos</b>
-		<span>info@cardelindustrial.com</span>
+		<span><a href="mailto:info@cardelindustrial.com" >info@cardelindustrial.com</a></span>
 		</div>
 	    </li>';
     }
@@ -97,7 +97,7 @@ class Page{
 								<div class="col-md-12 bottommargin-sm">
 									<div style="color:white;" class="footer-big-contacts">
 										<span style="color:white;">Escribenos:</span>
-										info@cardelindustrial.com
+										<a href="mailto:info@cardelindustrial.com"><span style="color:white;">info@cardelindustrial.com</span></a>
 									</div>
 								</div>
 
@@ -109,7 +109,7 @@ class Page{
 							<div class="row">
 
 								<div class="col-md-8 clearfix bottommargin-sm">
-									<a href="#"  style="margin-right: 10px;">
+									<a  href="https://www.facebook.com/cardelindustrial?ref=hl"  style="margin-right: 10px;">
                                                                             <img width="50" height="50" src="img/home/logos-social-01.png" />
 									</a>
                                                                     <a href="#"  style="margin-right: 10px;">
@@ -139,7 +139,7 @@ class Page{
 
 					<div class="col_half">
 						Copyrights &copy; 2015 CARDEL, Todos los derechos reservados.<br>
-						<div class="copyright-links"><a href="#">Powered By Lieison Working Together</a> </div>
+						<div class="copyright-links"><a target="_blank" href="http://lieison.com">Powered By Lieison Working Together</a> </div>
 					</div>
 
 					<div class="col_half col_last tright">
