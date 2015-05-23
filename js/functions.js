@@ -2251,9 +2251,20 @@ var SEMICOLON = SEMICOLON || {};
 		$parallaxPageTitleEl = $('.page-title-parallax'),
 		$youtubeBgPlayerEl = $('.yt-bg-player'),
 		$textRotaterEl = $('.text-rotater');
+                
+       
 
 	$(document).ready( SEMICOLON.documentOnReady.init );
 	$window.load( SEMICOLON.documentOnLoad.init );
 	$window.on( 'resize', SEMICOLON.documentOnResize.init );
 
 })(jQuery);
+
+function efecto_icono(id)
+{
+
+ 
+        $("#" + id ).stop(true,true).slideToggle( 1000 );
+   
+}
+
