@@ -38,6 +38,15 @@
 	<script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/drop.js"></script>
         
+        <style>
+body { padding: 30px }
+form { display: block; margin: 20px auto; background: #eee; border-radius: 10px; padding: 15px }
+
+.progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; display:inline-block; top:3px; left:48%; }
+</style>
+        
 	<!-- Document Title
 	============================================= -->
 	<?php 
@@ -213,7 +222,7 @@
 						 <div class="well well-lg nobottommargin">
 							
 						
-                                                     <form id="top-login" role="form" action=""  enctype="multipart/form-data">
+                                                     <form id="top-login" role="form" action="sendcv.php"  enctype="multipart/form-data">
                                         <div class="input-group" id="top-login-username">
                                             <span class="input-group-addon"><i class="icon-user"></i></span>
                                             <input type="text" class="form-control" placeholder="Nombres" required="">
@@ -242,7 +251,7 @@
                                                  </span>
                                                 
                                                 
-                                                <input  class=" btn " type="file" name="files[]" value="" />
+                                                <input  class=" btn " type="file" name="file" value="" />
                                                 
                                             </div>
                                              
@@ -250,6 +259,13 @@
                                         
                                         
                                           <br> <br>
+                                          
+                                          <div hidden="true" class="progress">
+                                              <div class="bar"></div >
+        <div  class="percent"></div >
+    </div>
+    
+    <div id="status"></div>
                                          
                                         <button style="background-color:#E5007E; color:white;" class="btn btn-block" type="submit">Enviar</button>
                                     </form>
@@ -288,6 +304,47 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+        
+        
+<script>
+(function() {
+
+  
+var bar = $('.bar');
+var percent = $('.percent');
+var status = $('#status');
+
+
+   
+$('form').ajaxForm({
+    beforeSend: function() {
+        $(".progress").attr("hidden" , false);      
+        status.empty();
+        var percentVal = '0%';
+        bar.width(percentVal);
+        percent.html(percentVal);
+    },
+    uploadProgress: function(event, position, total, percentComplete) {
+        var percentVal = percentComplete + '%';
+        bar.width(percentVal);
+        percent.html(percentVal);
+    },
+    success: function() {
+        var percentVal = '100%';
+        bar.width(percentVal);
+        percent.html(percentVal);
+    },
+    complete: function(xhr) {
+		status.html(xhr.responseText);
+    }
+}); 
+
+})();       
+</script>
+
 
 </body>
+
+
+
 </html>
