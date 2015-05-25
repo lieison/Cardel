@@ -241,7 +241,7 @@
 
 				<div class="section parallax dark" style=" padding: 120px 0;" data-stellar-background-ratio="0.1">
 
-					<div data-animate="fadeInLeft" class="fslider testimonial testimonial-full" data-arrows="false" style="z-index: 2;">
+					<div data-animate="swing" class="fslider testimonial testimonial-full" data-arrows="false" style="z-index: 2;">
 						<div class="flexslider">
 							<div class="slider-wrap">
 								<div class="slide">
@@ -307,13 +307,13 @@
 								</div>
 							</div>
 						
-                                                        <div data-animate="fadeInLeft" class="col-md-6 col-sm-6 bottommargin">
+                                                        <div data-animate="flip" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <img height="" src="img/home/fotos_home-03-01.jpg">
 								</div>
 							</div>
                                                         
-                                                       <div data-animate="fadeInRight" align="left" class="col-md-6 col-sm-6 bottommargin">
+                                                       <div data-animate="rotateIn" align="left" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <br><br><br>
                                                                     <h2 style="color:#E5007E;">ESTAS EN BUENAS MANOS</h2>
