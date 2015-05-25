@@ -215,45 +215,44 @@
 
 			<div class="content-wrap">
                             
-                           <div class="promo  promo-full  bottommargin-lg header-stick">
-					<div class="container clearfix">
-                                            <h4 style="letter-spacing: 2px;"><strong>PORQUE</strong> <strong style="color:#E5007E;">CONTRATARNOS</strong></h4>
-                                                 <hr  size="4" width="25%" align="left" />
-                                                 <p>
-                                                     La razón principal por la cual nuestros clientes adquieren nuestros servicios es porque al igual que ellos nosotros nos preocupamos mucho en materia de reducción de costos y optimización de recursos y es que en los estudios que hemos realizado la manera en la que hemos generado un impacto positivo en las finanzas de nuestros clientes es satisfactoria debido a que el tiempo se ha utilizado de manera eficiente. Ahora la pregunta de ¿porqué contratarnos? conlleva a una respuesta simple y es que Cardel con su modelo de outsourcing ayuda a que tu marca reduzca costos y optimice recursos.
-                                                 </p>
-					</div>
-				</div>
-
+                        
 
 				<div class="container clearfix">
 
-					<div class=" col-md-6 nobottommargin">
+					<div  class=" col-md-3 nobottommargin">
 						<div class=" feature-box media-box">
-							<div class="fbox-media">
-                                                            <img style="border-radius: 2px;" src="img/quienes/NuestraExperiencia-01.jpg" alt="Nuestra Experiencia">
+							<div data-animate="swing " align="center" class="fbox-media">
+                                                            <img style="border-radius: 2px;width:50%;" src="img/quienes/Iconos-quienessomos-01.png" alt="Nuestra Experiencia">
+							</div>
+							
+						</div>
+                                              <br><br>
+                                            <div class=" feature-box media-box">
+							<div data-animate="swing " align="center" class="fbox-media">
+                                                            <img style="border-radius: 2px;width:50%;" src="img/quienes/Iconos-quienessomos-02.png" alt="Nuestra Experiencia">
 							</div>
 							
 						</div>
 					</div>
 
-					<div class="col-md-6 nobottommargin">
+					<div class="col-md-9 nobottommargin">
 						<div class="feature-box media-box">
-							
-						   <div class="fbox-desc">
+                                                    
+                                                   <div data-animate="fadeInRight " class="fbox-desc">
+                                                    <h4 style="letter-spacing: 2px;"><strong>PORQUE</strong> <strong style="color:#E5007E;">CONTRATARNOS</strong></h4>
+                                                         <hr  size="4" width="25%" align="left" />
+                                                        <p>
+                                                             La razón principal por la cual nuestros clientes adquieren nuestros servicios es porque al igual que ellos nosotros nos preocupamos mucho en materia de reducción de costos y optimización de recursos y es que en los estudios que hemos realizado la manera en la que hemos generado un impacto positivo en las finanzas de nuestros clientes es satisfactoria debido a que el tiempo se ha utilizado de manera eficiente. Ahora la pregunta de ¿porqué contratarnos? conlleva a una respuesta simple y es que Cardel con su modelo de outsourcing ayuda a que tu marca reduzca costos y optimice recursos.
+                                                        </p>
+                                                    </div>
+                                                    <br><br>	
+						   <div data-animate="fadeInRight " class="fbox-desc">
                                                             <h3  style="color:#E5007E;" >NUESTRA EXPERIENCIA</h3>
                                                             <hr  size="4" width="50%" align="left" />
                                                              <p>Con más de 15 años en el mercado atendiendo las diferentes necesidades de nuestros clientes hemos logrado posicionarnos con mucha confianza y credibilidad en la imagen que nuestros clientes tienen sobre nosotros y creemos que trabajar de la mano, hombro con hombro de nuestros clientes es como se logran las metas y objetivos de las organizaciones.</p>
                                                     </div>
                                                    
-                                                    <br><br>
-                                                    <div class="fbox-desc">
-                                                            <h3  style="color:#E5007E;" >NUESTRO MAYOR CLIENTE</h3>
-                                                            <hr  size="4" width="50%" align="left" />
-                                                             <div align="center" class="fbox-center">
-                                                                 <img width="201" height="101" style="border-radius: 2px;" src="img/quienes/logoharisa-01.jpg" alt="">
-                                                            </div>
-							</div>
+                                                    
 						</div>
 					</div>
 
@@ -268,7 +267,7 @@
 							<div class="slider-wrap">
 								<div class="slide">
 									
-									<div class="testi-content">
+									<div  data-animate="flip" class="testi-content">
 										
                                                                             <h2><b>SOMOS TU MEJOR OPCIÓN</b></h2>
                                                                               <p>Somos una empresa de servicios outsourcing,

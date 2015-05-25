@@ -186,7 +186,7 @@
 
 			<div class="content-wrap">
                             
-                            <div style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
+                            <div data-animate="fadeInLeft "  style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
 					<div class="container clearfix">
                                             <h3 style="color:white;" align="center" style="letter-spacing: 2px;">CONOCE MÁS SOBRE NUESTROS SERVICIOS</h3>
 						
@@ -195,27 +195,27 @@
                           
 
 
-				<div class="container clearfix">
+				<div   class="container clearfix">
 
 					<div class=" col-md-4 nobottommargin">
-                                         <div align="right" class="fbox-icon">
+                                         <div  data-animate="swing"  align="right" class="fbox-icon">
                                              <a onmouseover="efecto_servicios(this.id);" id="a1" href="#"><img  width="158px" height="158.8px" src="img/servicios/Servicios-01.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
-                                            <div align="right" class="fbox-icon">
+                                            <div  data-animate="swing"  align="right" class="fbox-icon">
                                              <a onmouseover="efecto_servicios(this.id);" id="a2" href="#"><img  width="158px" height="158.8px" src="img/servicios/Servicios-02.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
-                                            <div align="right" class="fbox-icon">
+                                            <div data-animate="swing"  align="right" class="fbox-icon">
                                              <a onmouseover="efecto_servicios(this.id);" id="a3" href="#"><img   width="158px" height="158.8px" src="img/servicios/Servicios-03.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
 					</div>
 
-					<div class="col-md-8 nobottommargin">
+					<div data-animate="fadeInUp " class="col-md-8 nobottommargin">
 						<div class="feature-box media-box">
 							 <h4 style="letter-spacing: 2px;"><strong>SERVICIOS DE </strong> <strong style="color:#E5007E;">LIMPIEZA</strong></h4>
                                                          <hr align="left" width="35%">
@@ -227,7 +227,7 @@
                                             <br><br>
 					</div>
                                     
-                                    <div class="col-md-8 nobottommargin">
+                                    <div data-animate="fadeInUp " class="col-md-8 nobottommargin">
 						<div class="feature-box media-box">
 							 <h4 style="letter-spacing: 2px;"><strong>ADMINISTRACIÓN DE </strong> <strong style="color:#E5007E;">PERSONAL</strong></h4>
                                                          <hr align="left" width="35%">
@@ -239,7 +239,7 @@
 						</div>
                                         <br><br>
 					</div>
-                                          <div class="col-md-8 nobottommargin">
+                                          <div data-animate="fadeInUp " class="col-md-8 nobottommargin">
 						<div class="feature-box media-box">
 							 <h4 style="letter-spacing: 2px;"><strong>SERVICIOS DE </strong> <strong style="color:#E5007E;">MANO DE OBRA EN LABORATORIOS Y FARMACÉUTICAS</strong></h4>
                                                          <hr align="left" width="35%">

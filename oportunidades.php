@@ -196,7 +196,7 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
 
 			<div class="content-wrap">
                             
-                            <div style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
+                            <div data-animate="swing"  style="background-color: #009EE2;" class="promo  promo-full uppercase bottommargin-lg header-stick">
 					<div class="container clearfix">
                                             <h3 style="color:white;" align="center" style="letter-spacing: 2px;">Quieres ser parte del mejor equipo ?</h3>
 						
@@ -205,9 +205,9 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
                           
 
 
-				<div class="container clearfix">
+				<div  class="container clearfix">
 
-					<div class=" col-md-4 nobottommargin">
+					<div data-animate="fadeInLeft "  class=" col-md-4 nobottommargin">
 						<div class=" feature-box media-box">
 							  <div class="fbox-desc">
                                                             <h3  style="color:#E5007E;" >NUESTRA EXPERIENCIA</h3>
@@ -218,7 +218,7 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
 						</div>
 					</div>
 
-					<div class="col-md-8 nobottommargin">
+					<div data-animate="fadeInRight "  class="col-md-8 nobottommargin">
 						 <div class="well well-lg nobottommargin">
 							
 						
