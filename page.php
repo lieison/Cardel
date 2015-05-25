@@ -109,14 +109,14 @@ class Page{
 							<div class="row">
 
 								<div class="col-md-8 clearfix bottommargin-sm">
-									<a  href="https://www.facebook.com/cardelindustrial?ref=hl"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-01.png" />
+									<a onmouseout="social_(1);" onmouseover="social_hover(1);" href="https://www.facebook.com/cardelindustrial?ref=hl"  style="margin-right: 10px;">
+                                                                            <img id="img1"  width="50" height="50" src="img/home/logos-social-01.png" />
 									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-02.png" />
+                                                                    <a onmouseout="social_(2);" onmouseover="social_hover(2);" href="#"  onmouseover="social_hover(2); style="margin-right: 10px;">
+                                                                            <img id="img2" width="50" height="50" src="img/home/logos-social-02.png" />
 									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-03.png" />
+                                                                    <a onmouseout="social_(3);" onmouseover="social_hover(3);" href="#" onmouseover="social_hover(3);  style="margin-right: 10px;">
+                                                                            <img id="img3" width="50" height="50" src="img/home/logos-social-03.png" />
 									</a>
 									
 								</div>
@@ -202,7 +202,7 @@ class Page{
 								<div class="col-md-12 bottommargin-sm">
 									<div style="color:white;" class="footer-big-contacts">
 										<span style="color:white;">Escribenos:</span>
-										info@cardelindustrial.com
+										<a href="mailto:info@cardelindustrial.com"><span style="color:white;">info@cardelindustrial.com</span></a>
 									</div>
 								</div>
 
@@ -214,14 +214,14 @@ class Page{
 							<div class="row">
 
 								<div class="col-md-8 clearfix bottommargin-sm">
-									<a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-01.png" />
+									<a onmouseout="social_(1);" onmouseover="social_hover(1);" href="https://www.facebook.com/cardelindustrial?ref=hl"  style="margin-right: 10px;">
+                                                                            <img id="img1"  width="50" height="50" src="img/home/logos-social-01.png" />
 									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-02.png" />
+                                                                    <a onmouseout="social_(2);" onmouseover="social_hover(2);" href="#"  onmouseover="social_hover(2); style="margin-right: 10px;">
+                                                                            <img id="img2" width="50" height="50" src="img/home/logos-social-02.png" />
 									</a>
-                                                                    <a href="#"  style="margin-right: 10px;">
-                                                                            <img width="50" height="50" src="img/home/logos-social-03.png" />
+                                                                    <a onmouseout="social_(3);" onmouseover="social_hover(3);" href="#" onmouseover="social_hover(3);  style="margin-right: 10px;">
+                                                                            <img id="img3" width="50" height="50" src="img/home/logos-social-03.png" />
 									</a>
 									
 								</div>
@@ -244,7 +244,7 @@ class Page{
 
 					<div class="col_half">
 						Copyrights &copy; 2015 CARDEL, Todos los derechos reservados.<br>
-						<div class="copyright-links"><a href="#">Powered By Lieison Working Together</a> </div>
+						<div class="copyright-links"><a target="_blank" href="http://lieison.com">Powered By Lieison Working Together</a> </div>
 					</div>
 
 					<div class="col_half col_last tright">

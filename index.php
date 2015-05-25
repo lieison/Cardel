@@ -24,6 +24,7 @@
 
 	<link rel="stylesheet" href="demos/construction/css/fonts.css" type="text/css" />
 
+
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<!--[if lt IE 9]>
@@ -273,7 +274,7 @@
 							<div class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-                                                                            <a onmousemove="efecto_icono(this.id);" id="icon1"  href="#"><img src="img/home/Icons-01.png" alt="" ></a>
+                                                                            <a onmouseover="efecto_icono(this.id);" id="icon1"  href="#"><img src="img/home/Icons-01.png" alt="" ></a>
 									</div>
 									<h3>RESPONSABILIDAD</h3>
 									<p>Tenemos como compromiso responder a la necesidad de nuestro cliente con un alto rendimiento en los servicios que ofrecemos.</p>
@@ -281,7 +282,7 @@
 								</div>
                                                             <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-										<a onmousemove="efecto_icono(this.id);" id="icon2" href="#"><img src="img/home/Icons-03.png" alt="Finance Assistance"></a>
+										<a  onmouseover="efecto_icono(this.id);" id="icon2" href="#"><img src="img/home/Icons-03.png" alt="Finance Assistance"></a>
 									</div>
 									<h3>AGILIDAD</h3>
 									<p>Eficacia de nuestro servicio sin retrasos.</p>
@@ -292,13 +293,13 @@
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon"></div>
 									<h3>LEALTAD</h3>
-									<p><span class="fbox-icon"><a href="#"><img onmousemove="efecto_icono(this.id);" id="icon3" src="img/home/Icons-02.png" alt="Finance Assistance"></a></span></p>
+									<p><span class="fbox-icon"><a href="#"><img onmouseover="efecto_icono(this.id);" id="icon3" src="img/home/Icons-02.png" alt="Finance Assistance"></a></span></p>
                                                                         <p>Garantizamos cumplir nuestros servicios en su empres con fidelidad y confidencialidad.</p>
                                                                        
 								</div>
                                                                 <div class="feature-box fbox-plain">
 									<div class="fbox-icon">
-										<a onmousemove="efecto_icono(this.id);" id="icon4" href="#"><img src="img/home/Icons-04.png" alt="Cost Effective Solutions"></a>
+										<a onmouseover="efecto_icono(this.id);" id="icon4" href="#"><img src="img/home/Icons-04.png" alt="Cost Effective Solutions"></a>
 									</div>
 									<h3>CAPACIDAD</h3>
 									<p>Contamos con personal entrenado para ejecutar con habilidad y conocimiento, el servicio que necesita, a su entera satisfacción.</p>

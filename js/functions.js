@@ -2251,10 +2251,10 @@ var SEMICOLON = SEMICOLON || {};
 		$parallaxPageTitleEl = $('.page-title-parallax'),
 		$youtubeBgPlayerEl = $('.yt-bg-player'),
 		$textRotaterEl = $('.text-rotater');
-                
        
-
 	$(document).ready( SEMICOLON.documentOnReady.init );
+        
+     
 	$window.load( SEMICOLON.documentOnLoad.init );
 	$window.on( 'resize', SEMICOLON.documentOnResize.init );
 
@@ -2263,8 +2263,49 @@ var SEMICOLON = SEMICOLON || {};
 function efecto_icono(id)
 {
 
- 
-        $("#" + id ).stop(true,true).slideToggle( 1000 );
+  $("#" + id ).animate({marginLeft:20}, {duration: 1500, easing: "easeOutBounce"})
+                    .animate({marginLeft:0}, {duration: 1000, easing:"easeOutBounce"});
+        //$("#" + id ).stop(true,true).slideToggle( 1000 );
    
 }
 
+function efecto_servicios(id)
+{
+    
+   
+  $("#" + id ).animate({marginLeft:225}, {duration: 500, easing: "easeOutBounce"})
+                    .animate({marginLeft:0}, {duration: 1000, easing:"easeOutBounce"});
+   
+   
+}
+
+function social_hover(id){
+    switch(id){
+        case 1:
+            $("#img1").attr("src" , "img/home/logos-social-011.png");
+            break;
+        case 2:
+            $("#img2").attr("src" , "img/home/logos-social-022.png");
+            break;
+        case 3:
+             $("#img3").attr("src" , "img/home/logos-social-033.png");
+            break
+    }
+    
+     $("#img" + id ).animate({marginLeft:10}, {duration: 500, easing: "easeOutBounce"})
+                    .animate({marginLeft:0}, {duration: 1000, easing:"easeOutBounce"});
+}
+
+function social_(id){
+    switch(id){
+        case 1:
+            $("#img1").attr("src" , "img/home/logos-social-01.png");
+            break;
+        case 2:
+            $("#img2").attr("src" , "img/home/logos-social-02.png");
+            break;
+        case 3:
+             $("#img3").attr("src" , "img/home/logos-social-03.png");
+            break
+    }
+}
