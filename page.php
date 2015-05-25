@@ -12,11 +12,11 @@ class Page{
     }
     
     public function Icon(){
-        echo '<link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">';
+        echo '<link rel="icon" href="img/icon.ico" type="image/ico" sizes="16x16">';
     }
     
     public function Logo(){
-        echo '<div id="logo">
+        echo '<div data-animate="wobble"  id="logo">
               <br>
               <a href="index.html" class="standard-logo"><img width="250" src="img/logo.png" alt="Canvas Logo"></a>			
 	      </div>';
@@ -25,7 +25,7 @@ class Page{
     
     public function HeaderExtra(){
         echo '<li>
-		<i class="i-plain icon-call nomargin"></i>
+		<i  class="i-plain icon-call nomargin"></i>
 		<div class="he-text">
                          <b>Llámanos</b> 
 		<span>(503) 2122-4434</span>
@@ -59,11 +59,11 @@ class Page{
 
 				<!-- Footer Widgets
 				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
+				<div  class="footer-widgets-wrap clearfix">
 
 					<div class="col_two_third">
 
-                                            <div class="widget clearfix" style="color:white;">
+                                            <div data-animate="fadeInLeft " class="widget clearfix" style="color:white;">
 
                                                     <img src="img/logo_white.png" width="200" height="80" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px;">
 
@@ -81,7 +81,7 @@ class Page{
 
 					</div>
 
-					<div class="col_one_third col_last">
+					<div data-animate="fadeInRight " class="col_one_third col_last">
 
 						<div class="widget clear-bottommargin-sm clearfix">
 
