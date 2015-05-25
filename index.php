@@ -201,7 +201,7 @@
 
 			<div class="content-wrap">
 
-				<div class="promo promo-light promo-full uppercase bottommargin-lg header-stick">
+				<div data-animate="fadeInLeft" class="  promo promo-light promo-full uppercase bottommargin-lg header-stick">
 					<div class="container clearfix">
 						<h3 style="letter-spacing: 2px;">CONOCE MÁS SOBRE NUESTRO TRABAJO</h3>
 						
@@ -209,7 +209,7 @@
 					</div>
 				</div>
 
-				<div class="container clearfix">
+				<div data-animate="fadeInRight" class="container clearfix">
 
 					<div class=" col-md-6 nobottommargin">
 						<div class=" feature-box media-box">
@@ -241,7 +241,7 @@
 
 				<div class="section parallax dark" style=" padding: 120px 0;" data-stellar-background-ratio="0.1">
 
-					<div class="fslider testimonial testimonial-full" data-arrows="false" style="z-index: 2;">
+					<div data-animate="fadeInLeft" class="fslider testimonial testimonial-full" data-arrows="false" style="z-index: 2;">
 						<div class="flexslider">
 							<div class="slider-wrap">
 								<div class="slide">
@@ -270,8 +270,8 @@
 				<div class="container clearfix ">
 
 					<div class="clear-bottommargin">
-						<div class="row common-height clearfix">
-							<div class="col-md-6 col-sm-6 bottommargin">
+						<div  class="row common-height clearfix">
+							<div data-animate="fadeInLeft" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon">
                                                                             <a onmouseover="efecto_icono(this.id);" id="icon1"  href="#"><img src="img/home/Icons-01.png" alt="" ></a>
@@ -289,7 +289,7 @@
                                                                        
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-6 bottommargin">
+							<div data-animate="fadeInRight"  class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-icon"></div>
 									<h3>LEALTAD</h3>
@@ -307,13 +307,13 @@
 								</div>
 							</div>
 						
-                                                        <div class="col-md-6 col-sm-6 bottommargin">
+                                                        <div data-animate="fadeInLeft" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <img height="" src="img/home/fotos_home-03-01.jpg">
 								</div>
 							</div>
                                                         
-                                                       <div align="left" class="col-md-6 col-sm-6 bottommargin">
+                                                       <div data-animate="fadeInRight" align="left" class="col-md-6 col-sm-6 bottommargin">
 								<div class="feature-box fbox-plain">
                                                                     <br><br><br>
                                                                     <h2 style="color:#E5007E;">ESTAS EN BUENAS MANOS</h2>
