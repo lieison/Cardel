@@ -36,7 +36,7 @@
 	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
-
+      
 	<!-- Document Title
 	============================================= -->
 	<?php 
@@ -199,17 +199,17 @@
 
 					<div class=" col-md-4 nobottommargin">
                                          <div align="right" class="fbox-icon">
-                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-01.jpg" ></a>
+                                             <a onmouseover="efecto_servicios(this.id);" id="a1" href="#"><img  width="158px" height="158.8px" src="img/servicios/Servicios-01.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
                                             <div align="right" class="fbox-icon">
-                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-02.jpg" ></a>
+                                             <a onmouseover="efecto_servicios(this.id);" id="a2" href="#"><img  width="158px" height="158.8px" src="img/servicios/Servicios-02.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
                                             <div align="right" class="fbox-icon">
-                                             <a href="#"><img width="158px" height="158.8px" src="img/servicios/Servicios-03.jpg" ></a>
+                                             <a onmouseover="efecto_servicios(this.id);" id="a3" href="#"><img   width="158px" height="158.8px" src="img/servicios/Servicios-03.jpg" ></a>
                                              <br><br><br>
 					</div>
                                             
