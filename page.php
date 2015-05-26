@@ -18,7 +18,7 @@ class Page{
     public function Logo(){
         echo '<div data-animate="wobble"  id="logo">
               <br>
-              <a href="index.html" class="standard-logo"><img width="250" src="img/logo.png" alt="Canvas Logo"></a>			
+              <a href="index.php" class="standard-logo"><img width="250" src="img/logo.png" alt="Canvas Logo"></a>			
 	      </div>';
     }
     
