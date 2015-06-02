@@ -116,6 +116,17 @@
 							</div>
 						</div>
 					</div>
+					<div class="swiper-slide" style="background-image: url('img/home/Home_foto2Slider.jpg'); background-position: center top;">
+						<div class="container clearfix">
+							
+						</div>
+					</div>
+                                    
+                                        <div class="swiper-slide" style="background-image: url('img/home/Home_foto3Slider.jpg'); background-position: center top;">
+						<div class="container clearfix">
+							
+						</div>
+					</div>
 					
 				</div>
 				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
