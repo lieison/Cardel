@@ -116,17 +116,33 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide" style="background-image: url('img/home/Home_foto2Slider.jpg'); background-position: center top;">
+					<div class="swiper-slide" style="background-image: url('img/home/1.jpg'); background-posiHome_foto2Slider.jpgtion: center top;">
 						<div class="container clearfix">
 							
 						</div>
 					</div>
-                                    
-                                        <div class="swiper-slide" style="background-image: url('img/home/Home_foto3Slider.jpg'); background-position: center top;">
+                                    <div class="swiper-slide" style="background-image: url('img/home/3.jpg'); background-posiHome_foto2Slider.jpgtion: center top;">
 						<div class="container clearfix">
 							
 						</div>
 					</div>
+                                  
+                                    <div class="swiper-slide" style="background-image: url('img/home/4.jpg'); background-posiHome_foto2Slider.jpgtion: center top;">
+						<div class="container clearfix">
+							
+						</div>
+					</div>
+                                    <div class="swiper-slide" style="background-image: url('img/home/5.jpg'); background-posiHome_foto2Slider.jpgtion: center top;">
+						<div class="container clearfix">
+							
+						</div>
+					</div>
+                                    <div class="swiper-slide" style="background-image: url('img/home/6.jpg'); background-posiHome_foto2Slider.jpgtion: center top;">
+						<div class="container clearfix">
+							
+						</div>
+					</div>
+                                       
 					
 				</div>
 				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
