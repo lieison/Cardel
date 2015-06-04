@@ -1,5 +1,68 @@
 <?php include 'page.php'; ?>
 <?php $page = new Page(); ?>
+<?php 
+
+    /***
+ * 
+ *@version 1.0
+ *@author Rolando Arriaza 
+ *@todo Enviar Cv mediante un correo 
+ * 
+ */
+
+if(isset($_REQUEST['enviar'])):
+    
+    require_once 'include/phpmailer/class.phpmailer.php';
+
+    $from       = "rmarroquin@lieison.com";
+
+    $names      = $_POST['txt_name'] . " " . $_POST['txt_name2'];
+    $phone      = $_POST['txt_phone'];
+    $mail       = $_POST['txt_email'];
+    
+    $file       = NULL;
+    
+    if(!isset($_FILES['file'])):
+        echo "<b>Favor anexa tu CV.</b><br><br>";
+        exit();
+    endif;
+    
+    
+    $file       = $_FILES['file'];
+
+    $extension  = explode(".", $file['name']);
+    $extension  = end($extension);
+    
+ 
+    move_uploaded_file($file['tmp_name'], __DIR__ . "/tmp/$names" . "." . $extension  );
+    
+    
+    //return;
+
+    $mailer     = new PHPMailer();
+
+    
+    $mailer->From   = $from;
+    $mailer->FromName = "Cardel Oportunidades " . $names;
+    $mailer->AddAddress($from, "Cardel Support" );
+    $mailer->addAttachment(__DIR__ .  "/tmp/$names" . "." . $extension );  
+    $mailer->IsHTML(true);
+    $mailer->Subject = "Hay un nuevo CV !!!";
+    
+    $body = "<b>Nombre del Contacto : $names</b>";
+    $body .= "<b>Telefono : $phone</b>";
+    $body .= "<b>Correo : $mail</b>";
+    $body .= "<br><br><b>EL Curriculum se a adjuntado...</b>";
+    
+    if(!$mailer->Send()):
+         echo "El correo no se ha enviado, intente mas tarde.";
+    endif;
+    
+    exit();
+    
+endif;
+
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -222,26 +285,26 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
 						 <div class="well well-lg nobottommargin">
 							
 						
-                                                     <form id="top-login" role="form" action="sendcv.php"  enctype="multipart/form-data">
+                                                     <form id="top-login" role="form" method="post" action=""  enctype="multipart/form-data">
                                         <div class="input-group" id="top-login-username">
                                             <span class="input-group-addon"><i class="icon-user"></i></span>
-                                            <input type="text" class="form-control" placeholder="Nombres" required="">
+                                            <input type="text" name="txt_name" id="txt_name" class="form-control" placeholder="Nombres" required="">
                                         </div>
                                         <br>
                                         <div class="input-group" id="top-login-username">
                                             <span class="input-group-addon"><i class="icon-user"></i></span>
-                                            <input type="text" class="form-control" placeholder="Apellidos" required="">
+                                            <input type="text" id="txt_name2" name="txt_name2" class="form-control" placeholder="Apellidos" required="">
                                         </div>
                                         <br>
                                         <div class="input-group" id="top-login-username">
                                             <span class="input-group-addon"><i class="icon-phone"></i></span>
-                                            <input type="text" class="form-control" placeholder="Telefono" required="">
+                                            <input type="text" id="txt_phone" name="txt_phone" class="form-control" placeholder="Telefono" required="">
                                         </div>
                                         
                                         <br>
                                         <div class="input-group" id="top-login-username">
                                             <span class="input-group-addon"><i class="icon-email"></i></span>
-                                            <input type="text" class="form-control" placeholder="email" required="">
+                                            <input type="text" id="txt_email" name="txt_email" class="form-control" placeholder="email" required="">
                                         </div>
             
                                         <br>
@@ -251,7 +314,7 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
                                                  </span>
                                                 
                                                 
-                                                <input  class=" btn " type="file" name="file" value="" />
+                                                <input id="file" class=" btn " type="file" name="file" value="" />
                                                 
                                             </div>
                                              
@@ -267,7 +330,7 @@ form { display: block; margin: 20px auto; background: #eee; border-radius: 10px;
     
     <div id="status"></div>
                                          
-                                        <button style="background-color:#E5007E; color:white;" class="btn btn-block" type="submit">Enviar</button>
+    <button style="background-color:#E5007E; color:white;" name="enviar" id="enviar" class="btn btn-block" type="submit">Enviar</button>
                                     </form>
                                                      
                                                      
