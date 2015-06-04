@@ -44,12 +44,12 @@ if(isset($_REQUEST['enviar'])):
     
     $mailer->From   = $from;
     $mailer->FromName = "Cardel Oportunidades " . $names;
-    $mailer->AddAddress($from, "Cardel Support" );
+    $mailer->AddAddress($mail, "Cardel Support" );
     $mailer->addAttachment(__DIR__ .  "/tmp/$names" . "." . $extension );  
     $mailer->IsHTML(true);
     $mailer->Subject = "Hay un nuevo CV !!!";
     
-    $body = "<b>Nombre del Contacto : $names</b>";
+    $body  = "<b>Nombre del Contacto : $names</b>";
     $body .= "<b>Telefono : $phone</b>";
     $body .= "<b>Correo : $mail</b>";
     $body .= "<br><br><b>EL Curriculum se a adjuntado...</b>";
