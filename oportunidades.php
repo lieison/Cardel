@@ -27,6 +27,11 @@ if(isset($_REQUEST['enviar'])):
         exit();
     endif;
     
+    if(strlen($phone) < 8):
+        echo "<b>Debe ser un numero telefonico valido</b>";
+        exit();
+    endif;
+    
     
     $file       = $_FILES['file'];
 
@@ -36,8 +41,6 @@ if(isset($_REQUEST['enviar'])):
  
     move_uploaded_file($file['tmp_name'], __DIR__ . "/tmp/$names" . "." . $extension  );
     
-    
-    //return;
 
     $mailer     = new PHPMailer();
 
